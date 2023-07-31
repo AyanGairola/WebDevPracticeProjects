@@ -1,0 +1,12 @@
+body{
+    margin: 0;
+    overflow: hidden;
+}
+#xd{
+    color: azure;
+    z-index: 1;
+    position: absolute;
+}
+#hacker{
+    position: absolute;
+}
