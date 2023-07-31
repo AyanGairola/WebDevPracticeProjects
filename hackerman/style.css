@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Roboto:wght@300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+}
+body {
+  background-color: black;
+  color: rgb(17, 232, 17);
+  overflow: hidden;
+  
+}
+#hacker{
+  position: absolute;
+
+}
+
+#box1 {
+  text-align: center;
+  height: 18vh;
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+#box2 {
+  display: flex;
+  gap: 2vw;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+}
+
+#centre {
+  border: 2px solid blanchedalmond;
+  border-radius: 5px;
+  height: 80vh;
+ 
+  width: 100%;
+}
+
+
+  
+  
+  
