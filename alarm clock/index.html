@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alarm Clock</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="heading">
+        <h1>Alarm Clock</h1>
+    </div>
+    <div id="time-container">
+        <ul>
+            <li class="hours"></li>
+            <li class="colon">:</li>
+            <li class="minutes"></li>
+            <li class="colon">:</li>
+            <li class="seconds"></li>
+            <li></li>
+            <li class="ampm"></li>
+        </ul>
+    </div>
+    <div id="setTime">
+        <p>Enter seconds after you want the alarm to play:</p>
+        <input type="text" id="setAlarmAt">
+    </div>
+    <div class="alarm">
+    <button id="setAlarmBtn" onclick="SetAlarm()">Set Alarm</button>
+    </div>
+    <footer>
+        <p>&copy; AYAN GAIROLA</p>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
